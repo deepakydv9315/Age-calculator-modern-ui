@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="./style.css">
-    
+
     <title>Age Calculator</title>
 </head>
+
 <body>
     <div class="wrapper">
         <h1>Age Calculator📃✍️</h1>
@@ -16,14 +18,15 @@
         <div class="dob-wrapper">
             <input type="text" name="date" id="date" required placeholder="DD" maxlength="2" minlength="1">
             <input type="text" name="month" id="month" required placeholder="MM" maxlength="2" minlength="1">
-            <input type="text" name="year" id="year" required placeholder="YYYY"  maxlength="4" minlength="2">
+            <input type="text" name="year" id="year" required placeholder="YYYY" maxlength="4" minlength="2">
         </div>
         <div class="btn">
             <input type="button" name="submit" value="Submit" onclick="age()">
         </div>
         <p id="age"></p>
     </div>
-    
+
     <script src="./app.js"></script>
 </body>
+
 </html>

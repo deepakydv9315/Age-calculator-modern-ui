@@ -80,5 +80,21 @@ p{
     margin-top: 30px;
 }
 
+/* Responsive */
 
+@media screen and (max-width: 427px) {
+    body{
+        padding: 0px 10px;
+    }
+    .wrapper h1{
+        font-size: 22px;
+    }
 
+    .wrapper{
+        max-width: 400px;
+        padding: 10px 10px;
+    }
+    .dob-wrapper{
+        gap: 10px 30px;
+    }
+}

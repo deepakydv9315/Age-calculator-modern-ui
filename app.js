@@ -21,7 +21,7 @@ function age() {
         y2 = y2 - 1;
     }
 
-    var d = d2 - d2;
+    var d = d2 - d1;
     var m = m2 - m1;
     var y = y2 - y1;
 

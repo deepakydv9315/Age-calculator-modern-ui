@@ -14,13 +14,71 @@ body{
 }
 
 .wrapper{
-    width: 500px; height: 400px;
+    width: 400px; height: 320px;
     background-color: #fff; border-radius: 10px;
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.392);
-    padding: 10px;
+    padding: 15px 10px;
 }
 
 .wrapper h1{
     margin-bottom: 30px;
     text-align: center;
 }
+
+p{
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.dob-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 40px;
+    padding: 10px 0px;
+}
+.dob-wrapper input{
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 3px;
+    outline: none;
+    max-width: 60px;
+    padding: 4px 5px;
+    font-size: 17px;
+    font-weight: bold;
+    transition: all 0.2s linear;
+}
+
+.dob-wrapper input:focus{
+    border: 2px solid blue;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btn input{
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    padding:10px;
+    font-size: 17px;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+.btn input:hover{
+    transform: translateY(-1px);
+}
+
+#age{
+    margin-top: 30px;
+}
+
+
+

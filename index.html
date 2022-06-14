@@ -16,10 +16,15 @@
         <h1>Age Calculator📃✍️</h1>
         <p>I was born on: </p>
         <div class="dob-wrapper">
-            <input type="text" name="date" id="date" required placeholder="DD">
-            <input type="text" name="month" id="month" required placeholder="MM">
-            <input type="text" name="year" id="year" required placeholder="YYYY">
+            <input type="text" name="date" id="date" required placeholder="DD" maxlength="2" minlength="1">
+            <input type="text" name="month" id="month" required placeholder="MM" maxlength="2" minlength="1">
+            <input type="text" name="year" id="year" required placeholder="YYYY"  maxlength="4" minlength="2">
         </div>
+        <div class="btn">
+            <input type="button" name="submit" value="Submit" onclick="age()">
+        </div>
+        <p id="age"></p>
+        
     </div>
 
     <script src="./app.js"></script>
